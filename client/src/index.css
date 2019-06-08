@@ -5,6 +5,7 @@ body {
   background-color: #f2f2f2;
 }
 
+
 .movie-card {
   background-color: #fff;
   border: 0;
@@ -14,6 +15,15 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  
+  
+  
+}
+
+
+.movie-link{
+  color: black;
+  text-decoration: none;
 }
 
 .movie-director {
@@ -67,6 +77,17 @@ body {
 }
 
 .home-button {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightskyblue;
+  text-decoration: none;
+  color: black;
 }
+.home-button:hover {
+  background-color: green;
+  color: white;
+}
+
